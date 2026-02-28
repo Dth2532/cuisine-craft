@@ -1,0 +1,94 @@
+{
+  "name": "MealCraft - Smart Meal Planning",
+  "short_name": "MealCraft",
+  "description": "Smart meal planning with AI-powered recipe suggestions based on your ingredients",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0f0f1a",
+  "theme_color": "#1a1a2e",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icons/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["food", "lifestyle", "utilities"],
+  "screenshots": [
+    {
+      "src": "screenshots/home.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add Ingredients",
+      "short_name": "Ingredients",
+      "description": "Add ingredients you have",
+      "url": "/index.html?section=ingredients",
+      "icons": [{ "src": "icons/shortcut-ingredients.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Meal Planner",
+      "short_name": "Planner",
+      "description": "Plan your meals",
+      "url": "/index.html?section=calendar",
+      "icons": [{ "src": "icons/shortcut-calendar.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Browse Recipes",
+      "short_name": "Recipes",
+      "description": "Browse recipe collection",
+      "url": "/index.html?section=recipes",
+      "icons": [{ "src": "icons/shortcut-recipes.png", "sizes": "192x192" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
